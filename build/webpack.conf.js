@@ -67,5 +67,6 @@ module.exports = {
   plugins: [
     new ProgressBarPlugin(),
     new VueLoaderPlugin()
-  ]
+  ],
+  devtool: 'source-map'
 };

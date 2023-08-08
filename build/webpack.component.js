@@ -62,7 +62,8 @@ const webpackConfig = {
   plugins: [
     new ProgressBarPlugin(),
     new VueLoaderPlugin()
-  ]
+  ],
+  devtool: 'source-map'
 };
 
 module.exports = webpackConfig;

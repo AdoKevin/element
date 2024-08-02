@@ -44,9 +44,6 @@
       ]
     }
   ],
-  "publishConfig": {
-    "registry": "http://172.16.148.174:8081/repository/npm-private/"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:ElemeFE/element.git"
@@ -131,6 +128,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss": "^7.0.14",
     "progress-bar-webpack-plugin": "^1.11.0",
+    "puppeteer": "^10.0.0",
     "rimraf": "^2.5.4",
     "sass-loader": "^7.1.0",
     "select-version-cli": "^0.0.2",

@@ -212,7 +212,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.15.13-sobey',
+  version: '2.15.14-sobey',
   locale: locale.use,
   i18n: locale.i18n,
   install,

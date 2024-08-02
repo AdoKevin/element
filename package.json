@@ -1,6 +1,6 @@
 {
   "name": "element-ui",
-  "version": "2.15.13-sobey",
+  "version": "2.15.14-sobey",
   "description": "A Component Library for Vue.js.",
   "main": "lib/element-ui.common.js",
   "files": [

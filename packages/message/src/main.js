@@ -33,7 +33,8 @@ const Message = function(options) {
   }
   instance.$mount();
   document.body.appendChild(instance.$el);
-  let verticalOffset = options.offset || 20;
+  const globalConfigOffset = instance.$ELEMENT && instance.$ELEMENT.message && instance.$ELEMENT.message.offset;
+  let verticalOffset = typeof options.offset === 'number' ? options.offset : typeof globalConfigOffset === 'number' ? globalConfigOffset : 20;
   instances.forEach(item => {
     verticalOffset += item.$el.offsetHeight + 16;
   });
